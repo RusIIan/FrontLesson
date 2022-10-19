@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color:rgb(235,237,243);
+}
+.margin-left-right {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.advertising-top {
+  height: 50px;
+  border: 1px solid;
+}
+
+/*******************/
+/* Navigation--1 */
+.header-contact {
+  /* border: 1px solid; */
+  width: 1100px;
+  margin: 0 auto;
+}
+.header-contact:before {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #f6f7fa;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  border: 1px solid;
+  border: transparent;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+}
+ul li .link {
+  color: #5e1919;
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li .link:hover {
+  color: red;
+}
+ul li .link1 {
+  color: #5e1919;
+  display: block;
+  height: 50px;
+  padding: 0 px;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li .link1:hover {
+  color: red;
+}
+ul li .link2 {
+  line-height: 50px;
+  padding-left: 150px;
+}
+ul li .link3 {
+  color: rgb(133, 133, 133);
+  display: block;
+  height: 50px;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li .link2:hover {
+  color: red;
+}
+ul li .link3:hover {
+  color: rgb(255, 0, 0);
+}
+/* Navigation--2 */
+.Nabvar-head {
+  width: 1100px;
+  margin: 0 auto;
+}
+.Nabvar-head:before {
+  content: "";
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #ca1016;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 50px;
+}
+ul li {
+  float: left;
+}
+ul li .nav-link {
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li #font-size-turbo {
+  font-size: 18px;
+  color: #ffffff;
+  display: block;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 15px;
+  text-decoration: none;
+  line-height: 50px;
+}
+ul li .nav-link:hover {
+  color:rgba(94, 221, 253, 0.482);
+  cursor: pointer;
+  cursor: pointer;
+}
+ul li .yeni-elan {
+  width: 100px;
+  height: 40px;
+  background-color: #7ed321;
+  color: white;
+  padding: 2px;
+  padding-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 270px;
+}
+ul li .yeni-elan:hover {
+  background-color: #6fb820;
+  cursor: pointer;
+}
+/****************************/
+/*Vip Elan*/
+.main-head-vip-elan {
+  width: 950px;
+  height: 50px;
+  margin: 0 auto;
+  background:rgb(235,237,243);  
+}
+.main-head-vip-elan::before {
+  background: rgb(235,237,243);
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+.main-head-vip-elan > .vip-e {
+  float: left;
+  height: 70%;
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: Helvetica, sans-serif;
+}
+.main-head-vip-elan > .vip-img {
+  float: right;
+  height: 70%;
+  padding-top: 8px;
+}
+/****************************/
+aside>img{
+  width: 100%;
+  height: 100%;
+}
+#aside-left{
+  width:245px;
+    float: left;
+    position:sticky	;
+    height: 1000px;    
+    top: 0;
+}
+#aside-right{
+  width:245px;
+  float: right;
+  position:sticky	;
+  height: 1000px;    
+  top: 0;
+}
+/*elan and photos*/
+.photos{
+  border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    width: 230px;
+}
+.fa-gem{
+  color: coral;
+  position: absolute;
+  top: 140px;
+  left: 190px;
+  background-color: white;
+  padding-top: 5px;
+  padding-left: 6px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+.fa-xl{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 15px;
+  left: 190px;
+  padding-top: 5px;
+  padding-left: 6px;
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+}
+.elan-back-color{
+  background-color: rgba(243, 243, 243, 0.815);
+  overflow: hidden;
+}
+.masin-haqqinda-melumat-qiymet{
+  font-size: 18px;
+  font-weight: 600;
+  font-family:'Arial Narrow Bold', sans-serif;
+  padding-left: 10px;
+}
+.masin-haqqinda-melumat{
+  font-size: 16px;
+  padding-left: 10px;
+}
+.masin-haqqinda-melumat-tarix{
+  font-size: 14px;
+  color: rgba(142, 142, 142, 0.812);
+  padding-left: 10px;
+}
+.elan1{
+  border-radius: 12px;
+  width: 230px;
+  height: 260px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+.elan1:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+}
+
